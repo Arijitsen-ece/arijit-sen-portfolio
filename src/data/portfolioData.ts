@@ -1,4 +1,4 @@
-import myPhoto from "../assets/Arijit profile 02.jpg"; 
+import myPhoto from "../assets/Arijit_profile_02.jpg";
 import { Project, Experience, Education, Achievement } from '../types/portfolio';
 
 export const personalInfo = {
