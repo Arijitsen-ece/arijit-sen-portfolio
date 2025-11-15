@@ -100,7 +100,12 @@ export default function Hero() {
               {[
                 { icon: Linkedin, href: personalInfo.social.linkedin, color: 'hover:text-blue-600' },
                 { icon: Github, href: personalInfo.social.github, color: 'hover:text-gray-900 dark:hover:text-white' },
-                { icon: Mail, href: personalInfo.social.email, color: 'hover:text-red-600' }
+                { 
+  icon: Mail, 
+  href: `mailto:${personalInfo.social.email}`, 
+  color: 'hover:text-red-600' 
+}
+
               ].map((social, index) => (
                 <motion.a
                   key={index}
